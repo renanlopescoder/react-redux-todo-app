@@ -1,4 +1,4 @@
-![React Logo](http://renanlopes.com/img/external-logos/react.png)
+![Webpack React Redux React Router Logo](http://renanlopes.com/img/external-logos/react-redux.png)
 
 # React Redux Todo App
 
