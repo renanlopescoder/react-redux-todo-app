@@ -46,6 +46,8 @@ This is a simple "Todo List" project using Back End with NodeJS Express MongoDB 
 | npm i --save-dev redux@3.6.0 |
 | npm i --save-dev react-redux@5.0.2 |
 | npm i --save-dev redux-promise@0.5.3 |
+| npm i --save-dev redux-multi@0.1.12 |
+| npm i --save-dev redux-thunk@2.2.0 |
 
 #### Useful Links
 
