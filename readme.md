@@ -1,6 +1,8 @@
-![React Redux Logo](http://renanlopes.com/img/external-logos/react-redux.png)
+![React Redux Logo](http://renanlopes.com/img/external-logos/react-redux2.png)
 
 # React Redux Todo App
+
+DEMO: http://renanlopes.com/projects/react-redux-todo-app/#/todos
 
 #### Description
 
