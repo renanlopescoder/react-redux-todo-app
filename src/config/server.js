@@ -8,6 +8,7 @@ server.use(bodyParser.urlencoded( { extended: true } ))
 server.use(bodyParser.json())
 server.use(allowCors)
 server.use(allowCors({origin: '*'}));
+server.set('secret', 'opensecret');
 
 server.listen(port, function(){
   console.log(`backend server is running on port ${port}.`)
