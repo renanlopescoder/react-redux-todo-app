@@ -2,20 +2,19 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "src/loader.js",
   "scripts": {
     "dev": "nodemon",
-    "start": "pm2 start src/loader.js --name react-todo-app"
+    "start": "node ./src/loader.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
     "express": "^4.15.3",
     "mongoose": "^4.11.1",
     "node-restful": "^0.2.6",
-    "nodemon": "^1.11.0",
-    "pm2": "^2.5.0"
+    "nodemon": "^1.11.0"
   }
 }

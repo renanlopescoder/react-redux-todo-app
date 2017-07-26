@@ -2,9 +2,9 @@ const bodyParser = require('body-parser')
 const express = require('express')
 const server = express()
 const cors = require('cors')
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
-// server.use(bodyParser.urlencoded( { extended: true } ))
+server.use(bodyParser.urlencoded( { extended: true } ))
 server.use(bodyParser.json())
 
 server.use(cors({origin: '*'}));
