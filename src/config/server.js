@@ -1,13 +1,13 @@
 const bodyParser = require('body-parser')
 const express = require('express')
 const server = express()
-const allowCors = require('./cors')
+const cors = require('cors')
 const port = process.env.PORT || 3000;
 
 server.use(bodyParser.urlencoded( { extended: true } ))
 server.use(bodyParser.json())
-server.use(allowCors)
-server.use(allowCors({origin: '*'}));
+
+server.use(cors({origin: '*'}));
 server.set('secret', 'opensecret');
 
 server.listen(port, function(){
