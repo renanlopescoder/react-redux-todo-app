@@ -1,12 +1,14 @@
 {
-  "name": "react-redux-todo-app-server",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Heroku Deploy",
+  "description": "",
   "scripts": {
-    "start": "node ./backend/src/loader.js"
+    "dev": "nodemon",
+    "start": "node ./src/loader.js"
   },
   "keywords": [],
-  "author": "Renan Lopes",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
     "cors": "^2.8.4",
