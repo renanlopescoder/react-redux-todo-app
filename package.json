@@ -1,0 +1,8 @@
+{
+  "name": "react-redux-todo-app",
+  "version": "1.0.0",
+  "description": "Heroku server starter",
+  "scripts": {
+    "start": "node ./backend/src/loader.js"
+  }
+}
