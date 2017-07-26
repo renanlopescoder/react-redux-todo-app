@@ -3,8 +3,11 @@ import PageHeader from '../template/pageHeader'
 
 export default props => (
   <div>
-    <PageHeader name='About' small='React Todo App'></PageHeader>
-    <img src="http://renanlopes.com/img/external-logos/react.png" alt="React Logo" /> Todo App
+    <PageHeader name='About' small='React Redux Todo App'></PageHeader>
+    <div className="row">
+      <img className='col-md-6' src="http://renanlopes.com/img/external-logos/react-redux.png" alt="React Logo" />
+      <h2><i className="fa fa-calendar-check-o"></i> TodoApp</h2>
+    </div>
     <br />
     <br />
     <p>By: <a href="http://renanlopes.com">Renan Lopes</a></p>
