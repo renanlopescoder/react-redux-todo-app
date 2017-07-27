@@ -22,7 +22,7 @@ export default props => (
                 This is a simple "Todo List" project using Back End with NodeJS Express MongoDB and Front End with WebPack, babel and React to share with the developers community the usage of these technologies.
             </p>
               <div className="text-center">
-                <a href="https://github.com/renanlopescoder/react-todo-app" className="btn btn-default primary-color"><i className="fa fa-github" aria-hidden="true"></i> GitHub</a>
+                <a href="https://github.com/renanlopescoder/react-redux-todo-app" className="btn btn-default primary-color"><i className="fa fa-github" aria-hidden="true"></i> GitHub</a>
               </div>
             </li>
           </ul>
