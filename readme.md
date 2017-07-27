@@ -14,12 +14,12 @@ This is a simple "Todo List" project using Back End with NodeJS Express MongoDB 
 
 | npm cli |
 | ----- |
-| npm i --save-dev body-parser |
-| npm i --save-dev express |
-| npm i --save-dev mongoose |
-| npm i --save-dev node-restful |
-| npm i --save-dev pm2 |
 | npm i --save-dev nodemon |
+| npm i --save body-parser |
+| npm i --save express |
+| npm i --save mongoose |
+| npm i --save node-restful |
+| npm i --save cors |
 
 #### Front End Dependencies Installed
 
